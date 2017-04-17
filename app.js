@@ -1,5 +1,5 @@
 var words = ['javascript', 'css', 'html', 'java', 'python', 'matlab'];
-var index = getRandomInt(0, words.length);
+var index = getRandomInt(0, words.length - 1);
 
 var gallowWord = words[index];
 var currentGallowState = createEmptyWord(gallowWord.length);
